@@ -1,6 +1,8 @@
 import {
   Sheet,
   SheetContent,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
@@ -14,6 +16,10 @@ export function NavbarDashboard() {
         <Sheet>
             <SheetTrigger className="flex items-center"><Menu /></SheetTrigger>
             <SheetContent side="left">
+                <SheetHeader>
+                  <SheetTitle>Menu</SheetTitle>
+                </SheetHeader>
+
                 <SidebarRoutes />
             </SheetContent>
         </Sheet>
