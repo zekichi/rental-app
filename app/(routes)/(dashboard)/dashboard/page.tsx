@@ -4,7 +4,7 @@ export default function DashboardPage() {
     <div className="flex justify-between">
       <h2 className="text-2xl font-bold">List of Cars</h2>
     </div>
-    <p>Listado de coches</p>
+    <p>Listado de coches...</p>
     </div>
   )
 }
